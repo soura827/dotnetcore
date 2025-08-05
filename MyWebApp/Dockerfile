@@ -20,8 +20,8 @@ WORKDIR /app
 
 COPY --from=build /app .
 
-EXPOSE 5000
+EXPOSE 5002
 ENV DOTNET_RUNNING_IN_CONTAINER=true \
-    ASPNETCORE_URLS=http://0.0.0.0:5000
+    ASPNETCORE_URLS=http://0.0.0.0:5002
 
 ENTRYPOINT ["dotnet", "MyWebApp.dll"]
