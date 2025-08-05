@@ -18,4 +18,4 @@ spec:
       - name: mywebapp
         image: soura827/mywebapp:latest  # Updated image name
         ports:
-        - containerPort: 5000  # Assuming your app runs on port 5000
+        - containerPort: 5002 # Assuming your app runs on port 5000
